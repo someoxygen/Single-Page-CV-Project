@@ -2,6 +2,10 @@
 
 This project is a single-page CV built using only HTML. It does not require package installation, a build process, or any server-side technology.
 
+## Project URL
+
+https://roadmap.sh/projects/single-page-cv
+
 ## Project structure
 
 ```text
