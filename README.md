@@ -1,63 +1,63 @@
 # Single Page CV Project
 
-Bu proje, yalnızca HTML kullanılarak hazırlanmış tek sayfalık bir özgeçmiş uygulamasıdır. Herhangi bir paket kurulumu, derleme işlemi veya sunucu tarafı teknoloji gerektirmez.
+This project is a single-page CV built using only HTML. It does not require package installation, a build process, or any server-side technology.
 
-## Proje yapısı
+## Project structure
 
 ```text
 SinglePageCVProject/
-├── index.html    # Özgeçmiş sayfası
-├── favicon.png   # Tarayıcı sekmesinde gösterilen favicon
-└── README.md     # Proje açıklaması ve çalıştırma talimatları
+├── index.html    # CV page
+├── favicon.png   # Favicon displayed in the browser tab
+└── README.md     # Project description and setup instructions
 ```
 
-## Gereksinimler
+## Requirements
 
-Projeyi çalıştırmak için güncel bir web tarayıcısı yeterlidir:
+A modern web browser is all you need to run the project:
 
 - Google Chrome
 - Microsoft Edge
 - Mozilla Firefox
 - Safari
 
-## Projeyi çalıştırma
+## Running the project
 
-### 1. Doğrudan tarayıcıda açma
+### 1. Open it directly in a browser
 
-Projeyi bilgisayarına indirdikten veya klonladıktan sonra proje klasöründeki `index.html` dosyasına çift tıkla. Sayfa varsayılan tarayıcında açılacaktır.
+After downloading or cloning the project, double-click the `index.html` file in the project directory. The page will open in your default browser.
 
-### 2. Visual Studio Code ile çalıştırma
+### 2. Run it with Visual Studio Code
 
-Proje klasörünü Visual Studio Code ile aç:
+Open the project directory in Visual Studio Code:
 
 ```bash
 code .
 ```
 
-Ardından `index.html` dosyasını aç. Live Server eklentisi kuruluysa dosyaya sağ tıklayıp **Open with Live Server** seçeneğini kullanabilirsin.
+Then open `index.html`. If you have the Live Server extension installed, right-click the file and select **Open with Live Server**.
 
-### 3. Yerel HTTP sunucusu ile çalıştırma
+### 3. Run it with a local HTTP server
 
-Bilgisayarında Python kuruluysa proje klasöründe aşağıdaki komutu çalıştır:
+If Python is installed on your computer, run the following command from the project directory:
 
 ```bash
 python -m http.server 5500
 ```
 
-Daha sonra tarayıcıdan şu adresi aç:
+Then open the following address in your browser:
 
 ```text
 http://localhost:5500
 ```
 
-Sunucuyu durdurmak için terminalde `Ctrl + C` tuşlarına bas.
+To stop the server, press `Ctrl + C` in the terminal.
 
-## Özelleştirme
+## Customization
 
-- Kişisel bilgiler, eğitim ve deneyim alanları `index.html` içinden düzenlenebilir.
-- Tarayıcı sekmesindeki ikon `favicon.png` dosyası değiştirilerek güncellenebilir.
-- Renkler, ilgili HTML elemanlarının `style` özelliklerinden değiştirilebilir.
+- Personal information, education, and experience can be edited in `index.html`.
+- Replace `favicon.png` to update the icon displayed in the browser tab.
+- Colors can be changed through the `style` attributes of the relevant HTML elements.
 
-## Kullanılan teknolojiler
+## Technologies used
 
 - HTML5
